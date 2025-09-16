@@ -8,16 +8,16 @@
  */
 
 #include <dev/LED.hpp>
-#include <EVT/manager.hpp>
-#include <EVT/utils/time.hpp>
+#include <core/manager.hpp>
+#include <core/utils/time.hpp>
 
-namespace IO = EVT::core::IO;
+namespace IO = core::io;
 namespace DEV = BOARD_NAME::DEV;
-namespace time = EVT::core::time;
+namespace time = core::time;
 
 int main() {
     // Initialize system
-    EVT::core::platform::init();
+    core::platform::init();
 
     // Setup the GPIO pin.
     // Notice that the pin used is called "LED". Each platform has a dedicated

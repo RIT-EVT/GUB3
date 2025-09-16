@@ -1,7 +1,7 @@
 #ifndef _BOARD_NAME_LED_
 #define _BOARD_NAME_LED_
 
-#include <EVT/io/GPIO.hpp>
+#include <EVT/core/dev/gcov.h>
 
 namespace BOARD_NAME::DEV {
 
