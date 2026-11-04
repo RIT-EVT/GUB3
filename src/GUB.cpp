@@ -1,3 +1,3 @@
-#include <BOARD_NAME.hpp>
+#include <GUB.hpp>
 
 namespace BOARD_NAME {}

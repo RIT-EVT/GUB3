@@ -56,8 +56,8 @@ all EVT board repositories.  It contains the following capabilities:
 [the wiki](https://wiki.rit.edu/display/EVT/Documentation+and+Organization+Standards)
 6) Update all instances of GUB to match your project name
    1) `CMakeLists.txt:28`
-   2) Directory `./targets/BIKE_NAME-GUB`
-   3) `targets/BIKE_NAME-GUB/CMakeLists.txt:3`
+   2) Directory `./targets/GUB`
+   3) `targets/GUB/CMakeLists.txt:3`
    4) `src/GUB.cpp`
    5) `include/GUB.hpp`
    6) `docs/Doxyfile:35`
@@ -71,7 +71,7 @@ building functionality.
 below. When finished, all the changes should be committed and pushed to the setup branch, and a PR
 should be created to merge into main.
 
-# BIKE_NAME-GUB
+# GUB
 
 ## Introduction
 
