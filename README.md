@@ -54,12 +54,12 @@ all EVT board repositories.  It contains the following capabilities:
    4) `cd ../..`
 5) Import the project into Read the Docs, following the steps on 
 [the wiki](https://wiki.rit.edu/display/EVT/Documentation+and+Organization+Standards)
-6) Update all instances of BOARD_NAME to match your project name
+6) Update all instances of GUB to match your project name
    1) `CMakeLists.txt:28`
-   2) Directory `./targets/BIKE_NAME-BOARD_NAME`
-   3) `targets/BIKE_NAME-BOARD_NAME/CMakeLists.txt:3`
-   4) `src/BOARD_NAME.cpp`
-   5) `include/BOARD_NAME.hpp`
+   2) Directory `./targets/BIKE_NAME-GUB`
+   3) `targets/BIKE_NAME-GUB/CMakeLists.txt:3`
+   4) `src/GUB.cpp`
+   5) `include/GUB.hpp`
    6) `docs/Doxyfile:35`
    7) `docs/source/index.rst:6`
    8) `docs/source/api/index.rst:4,12,15`
@@ -71,7 +71,7 @@ building functionality.
 below. When finished, all the changes should be committed and pushed to the setup branch, and a PR
 should be created to merge into main.
 
-# BIKE_NAME-BOARD_NAME
+# BIKE_NAME-GUB
 
 ## Introduction
 
